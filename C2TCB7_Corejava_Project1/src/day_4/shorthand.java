@@ -1,4 +1,4 @@
-package general;
+package day_4;
 
 public class shorthand {
 

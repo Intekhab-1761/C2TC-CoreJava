@@ -1,4 +1,4 @@
-package general;
+package day_8;
 
 public class Sample2 {
 

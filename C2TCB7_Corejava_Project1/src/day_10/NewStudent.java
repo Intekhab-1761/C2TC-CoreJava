@@ -1,4 +1,4 @@
-package general;
+package day_10;
 
 public class NewStudent {
 	

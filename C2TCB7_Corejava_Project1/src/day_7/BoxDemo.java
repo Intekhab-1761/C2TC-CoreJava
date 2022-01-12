@@ -1,4 +1,4 @@
-package general;
+package day_7;
 
 class Box{
 	float height;

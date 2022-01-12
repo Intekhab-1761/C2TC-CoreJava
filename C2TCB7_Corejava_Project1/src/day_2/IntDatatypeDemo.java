@@ -1,4 +1,4 @@
-package general;
+package day_2;
 
 public class IntDatatypeDemo {
 

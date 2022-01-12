@@ -1,4 +1,4 @@
-package general;
+package day_3;
 
 public class Variable_Demo1 {
 	//class variable

@@ -1,4 +1,4 @@
-package general;
+package day_9;
 
 public class Employee {
 	int id;

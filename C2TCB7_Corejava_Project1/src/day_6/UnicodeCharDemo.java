@@ -1,4 +1,4 @@
-package general;
+package day_6;
 
 public class UnicodeCharDemo {
 

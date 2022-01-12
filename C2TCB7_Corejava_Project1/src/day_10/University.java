@@ -1,4 +1,4 @@
-package general;
+package day_10;
 
 class Department {
 	String departmentName;

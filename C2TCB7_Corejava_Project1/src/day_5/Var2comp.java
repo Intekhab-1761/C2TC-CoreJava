@@ -1,4 +1,4 @@
-package general;
+package day_5;
 
 public class Var2comp {
 
