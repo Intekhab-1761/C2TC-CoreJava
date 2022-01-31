@@ -1,11 +1,11 @@
 package day_25_Multithreading;
 
-public class A implements Runnable{
+public class A implements Runnable {
 
 	int h;
 	int l;
 	String msg;
-	
+
 	public A(int h, int l, String msg) {
 		this.h = h;
 		this.l = l;
@@ -14,18 +14,13 @@ public class A implements Runnable{
 
 	@Override
 	public void run() {
-		for(int i=h;i>l;i--)
-		{
-			try
-			{
-			Thread.sleep(2000);
-		}
-			catch(Exception e)
-			{
-				
+		for (int i = h; i > l; i--) {
+			try {
+				Thread.sleep(2000);
+			} catch (Exception e) {
+
 			}
-		System.out.println(msg + i);
+			System.out.println(msg + i);
+		}
 	}
 }
-}
-

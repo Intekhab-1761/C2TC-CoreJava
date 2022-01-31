@@ -4,27 +4,22 @@ public class DepositThread extends Thread {
 	AClass obj;
 	int amt;
 	String msg;
-	
-	public DepositThread(AClass obj, int amt,String msg) {	
+
+	public DepositThread(AClass obj, int amt, String msg) {
 		this.obj = obj;
 		this.amt = amt;
-		this.msg=msg;
+		this.msg = msg;
 	}
 
 	@Override
 	public void run() {
-		try
-		{
+		try { 
 			Thread.sleep(3000);
+		} catch (Exception e) {
+
 		}
-		catch(Exception e)
-		{
-			
-		}
-		//System.out.println("First");
+		System.out.println(msg);
 		obj.deposit(amt);
 	}
-	
 
 }
-

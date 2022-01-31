@@ -19,7 +19,16 @@ public class Account {
         catch(Exception e)
         {
         }
-System.out.println("Total balance is: "+Balance);
+		
+		WithdrawThread wt1= new WithdrawThread(oa,9000,"1st withdraw");
+		
+		wt1.start();
+		try {
+			wt1.join();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Total balance is: "+Balance);
 	}
 
 }
