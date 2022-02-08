@@ -1,1 +1,1 @@
-# C2TC-CoreJava
+#CoreJava
