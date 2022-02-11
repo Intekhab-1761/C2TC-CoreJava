@@ -1,26 +1,26 @@
 package com.tns.framework;
 
-public abstract class NormalAcc extends ShopAcc
-{
+public abstract class NormalAcc extends ShopAcc {
+	private final float deliveryCharges;
 
-	private final float deliveryCharge;
-	
-	
-	
-	public NormalAcc(int accNo, String accNm, float charges, float deliveryCharge) {
+	public NormalAcc(int accNo, String accNm, float charges, float deliveryCharges) {
 		super(accNo, accNm, charges);
-		this.deliveryCharge = deliveryCharge;
+		this.deliveryCharges = deliveryCharges;
 	}
-	public void bookProduct(float deliveryCharge)
-	{
-		
+
+	public void bookProduct(float deliveryCharges) {
+
 	}
+
 	@Override
 	public String toString() {
-		return "NormalAcc [deliveryCharge=" + deliveryCharge + ", accNo=" + accNo + ", accNm=" + getAccNm() + ", charges="
-				+ charges + ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()="
-				+ hashCode() + "]";
+		return "NormalAcc [deliveryCharge=" + deliveryCharges + ", accNo=" + accNo + ", accNm=" + getAccNm()
+				+ ", charges=" + charges + ", toString()=" + super.toString() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + "]";
 	}
-	
-	
+
+	public float getDeliveryCharges() {
+		return deliveryCharges;
+	}
+
 }

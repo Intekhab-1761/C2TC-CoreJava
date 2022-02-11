@@ -13,7 +13,10 @@ public class GSNormalAcc extends NormalAcc
 	
 	public void bookProduct(float charges)
 	{
-		
+
+		System.out.println("Dear user your product has been booked"
+				+ "\n"
+				+ "Total amount: "+charges+" Delivery charge: "+getDeliveryCharges());
 	}
 
 	@Override

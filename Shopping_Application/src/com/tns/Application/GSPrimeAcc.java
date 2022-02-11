@@ -15,8 +15,21 @@ public class GSPrimeAcc extends PrimeAcc
 	}
 	
 	public void bookProduct(float charges)
-	{
-		
+	{	
+		if(isPrime()) {
+		System.out.println("Dear user your product has been booked"
+				+ "\n"
+				+ "Total amount: "+charges+" Delivery charge: "+getDeliverycharges());
+		}else {
+			System.out.println("Dear user your product has been booked"
+					+ "\n"
+					+ "Total amount: "+charges+" Delivery charge: "+50);
+			
+		}
+	}
+
+	public static float getCharges() {
+		return charges;
 	}
 
 	@Override

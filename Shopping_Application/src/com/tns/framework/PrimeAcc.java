@@ -2,7 +2,7 @@ package com.tns.framework;
 
 public abstract class PrimeAcc extends ShopAcc
 {
-
+	private static final float deliveryCharges=0;
 	
 	private boolean isPrime;
 	
@@ -25,6 +25,9 @@ public abstract class PrimeAcc extends ShopAcc
 	}
 	public void setPrime(boolean isPrime) {
 		this.isPrime = isPrime;
+	}
+	public static float getDeliverycharges() {
+		return deliveryCharges;
 	}
 	
 	
