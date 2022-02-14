@@ -1,4 +1,4 @@
-package day_12;
+package day_12_Inheritence;
 
 class Base
 {

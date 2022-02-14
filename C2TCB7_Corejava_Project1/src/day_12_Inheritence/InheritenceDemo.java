@@ -1,4 +1,4 @@
-package day_12;
+package day_12_Inheritence;
 
 
 class Bicycle
@@ -50,7 +50,7 @@ class MountainBike extends Bicycle
 	
 }
 
-public class InheritanceDemo {
+public class InheritenceDemo {
 
 	public static void main(String[] args) {
 		

@@ -1,4 +1,4 @@
-package day_19;
+package day_19_ExceptionHandling;
 
 import java.util.Scanner;
 

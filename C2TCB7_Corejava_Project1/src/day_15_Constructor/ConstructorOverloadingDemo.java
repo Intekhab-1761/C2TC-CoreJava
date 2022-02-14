@@ -1,4 +1,4 @@
-package day_15;
+package day_15_Constructor;
 
 class Student1
 {
